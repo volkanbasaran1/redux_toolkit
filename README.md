@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redux Toolkit Table Example</title>
+    <!-- Temel Sayfa Stili -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,24 +32,31 @@
     </style>
 </head>
 <body>
-    <h1>Redux Toolkit Table Example</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Table rows will be dynamically populated here using JavaScript -->
-        </tbody>
-    </table>
-    <button id="addButton">Add Row</button>
-    <button id="deleteButton">Delete Row</button>
-    <script>
-        // JavaScript kodu buraya eklenecek
-    </script>
+<!-- 1. Başlık Eklenmesi -->
+<h1>Redux Toolkit Table Example</h1>
+<!-- 2. Tablo Yapısının Oluşturulması -->
+<table>
+    <!-- 3. Tablo Başlıkları -->
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <!-- 4. Tablo Veri Alanı -->
+    <tbody>
+        <!-- JavaScript ile dinamik olarak güncellenecek tablo verileri -->
+    </tbody>
+</table>
+<!-- 5. Düğmelerin Eklenmesi -->
+<button id="addButton">Add Row</button>
+<button id="deleteButton">Delete Row</button>
+
+<!-- 6. JavaScript Kodu -->
+<script>
+    // JavaScript kodu buraya eklenecek
+</script>
 </body>
 </html>
