@@ -28,8 +28,7 @@
     </tbody>
 </table>
 <!-- 5. Düğmelerin Eklenmesi -->
-<button id="addButton">Add Row</button>
-<button id="deleteButton">Delete Row</button>
+
 
 </body>
 </html>
