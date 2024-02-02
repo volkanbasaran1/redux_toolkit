@@ -15,9 +15,11 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Action</th>
+            <th>Gorev</th>
+            <th>Yazar</th>
+            <th>Atanan</th>
+             <th>Tarih</th>
+             <th>İşlemler</th>
         </tr>
     </thead>
     <!-- 4. Tablo Veri Alanı -->
@@ -29,9 +31,5 @@
 <button id="addButton">Add Row</button>
 <button id="deleteButton">Delete Row</button>
 
-<!-- 6. JavaScript Kodu -->
-<script>
-    // JavaScript kodu buraya eklenecek
-</script>
 </body>
 </html>
